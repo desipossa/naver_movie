@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/naver_movie/static/js/main.f6c2bb84.js",
+    "index.html": "/naver_movie/index.html",
+    "main.f6c2bb84.js.map": "/naver_movie/static/js/main.f6c2bb84.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f6c2bb84.js"
+  ]
+}
