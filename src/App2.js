@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [movie, setMovie] = useState([]);
-  const [search, setSearch] = useState('love');
+  const [search, setSearch] = useState('영화');
   useEffect(() => {
     getMovie()
   }, []);
@@ -13,7 +13,7 @@ function App() {
     const res = await axios.get('/v1/search/movie', {
       params: {
         query: search,
-        display: 100
+        display: 20
       },
       headers: {
         'X-Naver-Client-Id': 'GnKM3Exfyuo03kt2IOJK',
